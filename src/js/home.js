@@ -37,6 +37,7 @@
   const summaryName = document.getElementById('summary-name');
   const summaryPrice = document.getElementById('summary-price');
   const backToSizeBtn = document.getElementById('back');
+  const payHomeBtn = document.getElementById('pay-home-btn');
 
   const cam = { tx: 0, ty: 0, s: 1 };
   let activeCard = null;
@@ -257,10 +258,16 @@
     setTimeout(() => {
       payOverlay.hidden = true;
       payOverlay.classList.remove('is-closing');
-    }, 400); // 400ms = durata dell'animazione CSS
+    }, 400);
   }
   
   backToSizeBtn.addEventListener('click', closePayOverlay);
+
+  payHomeBtn.addEventListener('click', () => {
+    payOverlay.classList.remove('is-closing');
+    payOverlay.hidden = true;
+    closeProduct();
+  });
 
   function linkFor(method) {
     if (method === 'paypal') {
