@@ -600,6 +600,22 @@ main {
 }
 .method.on::before { display: none; }
 
+.home-btn {
+  background: var(--sg-navy);
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .1em;
+  cursor: pointer;
+  transition: opacity .2s ease, transform .1s ease;
+  box-shadow: 0 4px 10px -4px rgba(14,26,51,.6);
+}
+.home-btn:hover { opacity: 0.9; }
+.home-btn:active { transform: scale(.96); }
+
 /* QR Code */
 .qr { display: flex; justify-content: center; margin: 4px 0; }
 .qr:empty { display: none; } /* Nasconde il blocco se è vuoto */
