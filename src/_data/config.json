@@ -1,0 +1,6 @@
+{
+  "paypal": "TUO_HANDLE_PAYPALME",
+  "revolut": "TUO_HANDLE_REVOLUTME",
+  "currency": "EUR",
+  "revolutPrefill": false
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "angels-hoodie-01",
+    "name": "Angels Hoodie 01",
+    "price": 120,
+    "images": [
+      "/img/angels_hoodie_01_1.webp",
+      "/img/angels_hoodie_01_2.webp"
+    ],
+    "sizes": { "S": 0, "M": 0, "L": 0 }
+  },
+  {
+    "slug": "angels-hoodie-02",
+    "name": "Angels Hoodie 02",
+    "price": 120,
+    "images": [
+      "/img/angels_hoodie_02_1.webp",
+      "/img/angels_hoodie_02_2.webp"
+    ],
+    "sizes": { "S": 0, "M": 10, "L": 4 }
+  },
+  {
+    "slug": "cloud-tee-blue",
+    "name": "Cloud Tee Blue",
+    "price": 50,
+    "images": [
+      "/img/cloud_tee_blue_1.webp",
+      "/img/cloud_tee_blue_2.webp"
+    ],
+    "sizes": { "S": 0, "M": 0, "L": 0 }
+  },
+  {
+    "slug": "cloud-tee-white",
+    "name": "Cloud Tee White",
+    "price": 50,
+    "images": [
+      "/img/cloud_tee_white_1.webp",
+      "/img/cloud_tee_white_2.webp"
+    ],
+    "sizes": { "S": 0, "M": 0, "L": 0 }
+  },
+  {
+    "slug": "dbo-hat",
+    "name": "DBO Hat",
+    "price": 39,
+    "images": [
+      "/img/dbo_hat_1.webp",
+      "/img/dbo_hat_2.webp"
+    ],
+    "sizes": { "OneSize": 25 }
+  },
+  {
+    "slug": "dbo-tee-black",
+    "name": "DBO Tee Black",
+    "price": 50,
+    "images": [
+      "/img/dbo_tee_black_1.webp",
+      "/img/dbo_tee_black_2.webp"
+    ],
+    "sizes": { "S": 10, "M": 15, "L": 15 }
+  },
+  {
+    "slug": "dbo-tee-white",
+    "name": "DBO Tee White",
+    "price": 50,
+    "images": [
+      "/img/dbo_tee_white_1.webp",
+      "/img/dbo_tee_white_2.webp"
+    ],
+    "sizes": { "S": 10, "M": 15, "L": 15 }
+  },
+  {
+    "slug": "waffle-longsleeve-cream",
+    "name": "Waffle Longsleeve Cream",
+    "price": 79,
+    "images": [
+      "/img/waffle_longsleeve_cream_1.webp",
+      "/img/waffle_longsleeve_cream_2.webp"
+    ],
+    "sizes": { "S": 5, "M": 10, "L": 10 }
+  },
+  {
+    "slug": "waffle-longsleeve-navy",
+    "name": "Waffle Longsleeve Navy",
+    "price": 79,
+    "images": [
+      "/img/waffle_longsleeve_navy_1.webp",
+      "/img/waffle_longsleeve_navy_2.webp"
+    ],
+    "sizes": { "S": 5, "M": 10, "L": 10 }
+  },
+  {
+    "slug": "world-longsleeve-blue",
+    "name": "World Longsleeve Blue",
+    "price": 80,
+    "images": [
+      "/img/world_longsleeve_blue_1.webp",
+      "/img/world_longsleeve_blue_2.webp"
+    ],
+    "sizes": { "S": 0, "M": 0, "L": 0 }
+  },
+  {
+    "slug": "world-longsleeve-white",
+    "name": "World Longsleeve White",
+    "price": 80,
+    "images": [
+      "/img/world_longsleeve_white_1.webp",
+      "/img/world_longsleeve_white_2.webp"
+    ],
+    "sizes": { "S": 0, "M": 0, "L": 0 }
+  }
+]

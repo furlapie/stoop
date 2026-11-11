@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#e9ebef">
+  <title>{{ title | default: "Stupid Genius" }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="{% if page.url == '/' %}is-home{% else %}is-pos{% endif %}">
+  
+  <div class="bg-wrap" aria-hidden="true">
+    <div class="bg" id="bg">
+      <i class="b1"></i><i class="b2"></i><i class="b3"></i>
+      <i class="b4"></i><i class="b5"></i><i class="b6"></i>
+    </div>
+  </div>
+  
+  <div class="grain" aria-hidden="true"></div>
+
+  {% if page.url == "/" %}
+    <div class="sg-top-blur sg-top-blur--1"></div>
+    <div class="sg-top-blur sg-top-blur--2"></div>
+    <div class="sg-top-blur sg-top-blur--3"></div>
+    <div class="sg-top-blur sg-top-blur--4"></div>
+    <header class="top">
+      <a class="top-logo" href="/"><img src="/img/_logo.png" alt="Stupid Genius"></a>
+    </header>
+  {% endif %}
+
+  <main>{{ content }}</main>
+</body>
+</html>
